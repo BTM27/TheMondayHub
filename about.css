@@ -1,0 +1,30 @@
+.aboutSection {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  padding: 160px 40px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  border-top: 4px solid #444;
+  height:600px;
+}
+
+.aboutSection h2 {
+  font-size: 3em;
+  color: #f3e77a;
+  margin-bottom: 30px;
+}
+
+
+.aboutSection p {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #d4d4d4;
+}
+
+*{
+  user-select: none;
+}
+
+

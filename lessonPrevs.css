@@ -1,0 +1,92 @@
+h4{
+  font-size:50px;
+  border-bottom: 10px solid rgb(245,225,41);
+  width:50%;
+  padding:40px;
+  padding-top:0;
+  
+}
+.life-lessons {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #ffffff;
+  color: #ffffff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:#222;
+}
+
+.lesson-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.lesson-card {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  padding: 20px;
+  width: 260px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lesson-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.lesson-card h3 {
+  margin-bottom: 10px;
+  font-family: "Courier New", monospace;
+  color: #3b3b3b;
+}
+
+.lesson-card p {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.lesson-card a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #222;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lesson-card a:hover {
+  background-color: #444;
+}
+
+.imgContainer {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  filter: blur(1.5px);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.356);
+  transition: filter 500ms;
+}
+
+.imgContainer img:hover {
+  filter: blur(0);
+}
+

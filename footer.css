@@ -1,0 +1,20 @@
+.footer {
+  background-color: #111;
+  color: #aaa;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 1.3rem;
+  border-top: 1px solid #444;
+}
+
+.footer p {
+  margin: 8px 0;
+  opacity: 0.8;
+}
+
+.footer p:first-child {
+  font-style: italic;
+  color: #f5e129;
+  opacity: 1;
+}

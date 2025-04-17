@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Monday Hub</title>
+    <link rel="stylesheet" href="mainStyles/lessonPrevs.css">
+    <link rel="stylesheet" href="mainStyles/s2-3.css">
+    <link rel="stylesheet" href="mainStyles/s1.css">
+    <link rel="stylesheet" href="mainStyles/main.css">
+    <link rel="stylesheet" href="mainStyles/footer.css">
+  </head>
+  <body>
+    <header>
+      <div class="right-section">
+        <p class="headLink" onclick="scrollToTop()">Home</p>
+      </div>
+      <div class="left-section">
+        <input type="text" placeholder="Browse" class="headSearch">
+        <a href="about.HTML" style="color:white; text-decoration:none;">
+          <p class="headLink">About</p>
+        </a>
+      </div>
+    </header>
+
+    <div class="s1">
+      <video autoplay muted loop playsinline class="S1-Vid">
+        <source src="homepageVid.mp4" type="video/mp4" />
+        Your browser was not capable of rendering such a video.
+      </video> 
+      <div class="main">
+        <p>Welcome to Monday. <span>Please lower your hopes.</span></p>
+      </div>
+    </div>
+    <div class="spacer" style="height:600px;"></div>
+
+    <div class="s2">
+      <h3>Getting You Started</h3>
+      <p id="dailyRoast" class="rBox">
+      </p>
+      <div class="subS2">
+        <h2>Your Personal Burden Collector</h2>
+        <p>
+          A hub for all of your tasks, truths, and tiny failures. Built to hold the things you swore you'd finish, but probably won't.
+        </p>
+      </div>
+    </div>
+    <section class="life-lessons">
+      <h4>Life Lessons</h4>
+      <div class="lesson-grid">
+        
+        <!-- Module: Reality Check -->
+        <div class="lesson-card">
+          <div class="imgContainer">
+            <img src="realityPreviews/realityCheckPreview.png" alt="Reality Check Preview" />
+          </div>
+          <h3>Reality Check</h3>
+          <p>Arrays, loops, and an existential slap.</p>
+          <a href="lifeLessons/MondayReality/realityCheck.html">Enter</a>
+        </div>
+    
+        <!-- Module: Task Manager -->
+        <div class="lesson-card">
+          <div class="imgContainer">
+            <img src="realityPreviews/burdenCollector.png" alt="Task Manager Preview" />
+          </div>
+          <h3>Burden Collector</h3>
+          <p>Add tasks. Then abandon them in style.</p>
+          <a href="lifeLessons/MondaysTaskManager/MondaysTaskManager.html">Enter</a>
+        </div>
+    
+        <!-- You can add more lessons later and let them haunt this grid -->
+      </div>
+      <h4 style="border:none; font-size: 2.5em; margin-top: 20%;">More coming soon.</h4>
+    </section>
+    <section class="footer">
+      <p>"You reached the bottom. Impressive. Still no results though."</p>
+      <p>&copy; 2025 Monday Cult Inc. All procrastination rights revoked.</p>
+    </section>
+
+     
+    <script src="generalScripts/mainScript.js"></script>
+  </body>
+</html>
