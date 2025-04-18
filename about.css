@@ -1,3 +1,7 @@
+body, html{
+  height: 100%;
+}
+
 .aboutSection {
   background-color: #1a1a1a;
   color: #e0e0e0;
@@ -5,7 +9,7 @@
   text-align: center;
   font-family: 'Courier New', monospace;
   border-top: 4px solid #444;
-  height:600px;
+  height:100%;
 }
 
 .aboutSection h2 {
